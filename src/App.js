@@ -1,12 +1,11 @@
 import React from "react";
-import PracticeStates from "./practice-folder/PracticeStates"
-import './App.css';
+import PracticeStates from "./practice-folder/PracticeStates";
+import Home from "./main/home/Home";
 
 export default function App() {
   return (
     <div>
-      <h1>Here is my imported component:</h1>
-      {PracticeStates()}
+      {Home()}
     </div>
   )
 }

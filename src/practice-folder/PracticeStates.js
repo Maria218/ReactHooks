@@ -3,7 +3,6 @@
 // Importing 'useState' shows that we intend to use and manage states in this component
 
 import React, { useState } from 'react';
-import logo from './../logo.svg';
 import './../App.css';
 
 // ALWAYS start your components with a capital letter. The names are case sensitive because a linter is used in Hooks
@@ -22,7 +21,6 @@ export default function PracticeStates() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         {/* The state is updated as below: */}
         {/* <button onClick={() => setButtonText("Thank you for clicking me!")}>{initialButtonText}</button> */}
 

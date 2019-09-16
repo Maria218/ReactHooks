@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Manjari';
+    /* font-style: bold; */
+    src: url('../../fonts/Manjari//Manjari-Bold.ttf'); /* IE9 Compat Modes */
+}
+
+.navbar {
+    background-color: #fcfcff;
+}
+
+.nav-link {
+    color: #000000 !important;
+    font-family: 'Manjari';
+    font-size: 19px;
+    text-decoration: underline solid;
+}
