@@ -1,10 +1,10 @@
 import React from "react";
-import "./Home.css"
+import "./Members.css";
 
-export default function Home() {
+export default function Members() {
     return (
-        <div class="fade-in">
-            <h1>This is the home page</h1>
+        <div>
+            <h1>Meet Our Members</h1>
             <br />
             <br />
             <p>Lorem ipsum dolor sit amet morituri te salutamus sic transit gloria mundi vendi vidi vici</p>
@@ -18,7 +18,6 @@ export default function Home() {
             <br />
             <br />
             <p>This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. </p>
-            
         </div>
     )
 }
