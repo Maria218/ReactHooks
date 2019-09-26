@@ -18,3 +18,11 @@
 .nav-item {
     scroll-behavior: smooth;
 }
+
+.selected {
+    color: green !important;
+    font-family: 'Manjari';
+    font-size: 19px;
+    text-decoration: none;
+    outline: 0;
+}

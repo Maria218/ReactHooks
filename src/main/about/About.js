@@ -8,7 +8,7 @@ export default function About() {
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active box">
-                        <img src={about} class="d-block w-100" alt="This is the main image" />
+                        <img src={about} class="d-block w-100" alt="" />
                         <div class="text">
                             {/* <h1>Flying Kites</h1> */}
                         </div>

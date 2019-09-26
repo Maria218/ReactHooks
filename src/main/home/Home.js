@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import main_image from "./../../public/main_image.jpg";
-import logo1 from "./../../public/logo1_edited.gif"
 
 export default function Home() {
     return (
@@ -12,7 +11,7 @@ export default function Home() {
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active box">
-                        <img src={main_image} class="d-block w-100" alt="This is the main image" />
+                        <img src={main_image} class="d-block w-100" alt="Girls' Voices" />
                         <div class="text">
                             {/* <h1>Flying Kites</h1> */}
                         </div>
