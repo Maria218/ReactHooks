@@ -13,6 +13,11 @@
     font-family: 'Manjari';
     font-size: 19px;
     text-decoration: underline solid;
+    outline: 0;
+}
+
+.nav-link:hover, .nav-link:focus {
+    outline: 0;
 }
 
 .nav-item {
@@ -20,9 +25,13 @@
 }
 
 .selected {
-    color: green !important;
+    color: #696969 !important;
     font-family: 'Manjari';
     font-size: 19px;
     text-decoration: none;
     outline: 0;
+}
+
+.selected:hover, .selected:focus {
+    outline:0;
 }

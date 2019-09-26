@@ -6,7 +6,7 @@ import Container from "./routing/Container";
 
 export default function App() {
   return (
-    <div class="App">
+    <div className="App">
       <Router>
         <div>
           <Navbar />

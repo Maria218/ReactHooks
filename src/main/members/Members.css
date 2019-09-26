@@ -1,0 +1,14 @@
+.container {
+    text-align: center;
+    width: 100%;
+    /* justify-content: baseline; */
+}
+
+.profiles {
+    text-align: center;
+    width: 100%;
+}
+
+.card-columns {
+    display: inline-block;
+}
