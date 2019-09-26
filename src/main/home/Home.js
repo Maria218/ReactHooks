@@ -1,24 +1,31 @@
 import React from "react";
-import "./Home.css"
+import "./Home.css";
+import main_image from "./../../public/main_image.jpg";
+import logo1 from "./../../public/logo1_edited.gif"
 
 export default function Home() {
     return (
-        <div class="fade-in">
-            <h1>This is the home page</h1>
+        <div id="home" class="fade-in">
             <br />
             <br />
-            <p>Lorem ipsum dolor sit amet morituri te salutamus sic transit gloria mundi vendi vidi vici</p>
-            <p>Sic mea vita es temporaria cupit ardenter. Caritatem aeternum. Credum dabo sperabo honorabo laborabo gratias agam. Et denique aperaenis cupit occultas. Nobis grandis et clara nosque curabit. Nobis grandis et clara nosque curabit</p>
-            <p>Magna, magna! Caritas. Magna, magna. Caritas. Ahhhh audio, vocem tuam. Libertas. Dea. Amabit caritatis parcem. Caritatis! oankvdan avon foism oiwfonm aeoinmcdiuonev nofeoicn qfeojiamc afeoijmc acions acoins fonica oinecnjnvwuq aiunvrw</p>
-            <p>This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. </p>
-            <p>This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. </p>
             <br />
-            <br />
-            <p>This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. </p>
-            <br />
-            <br />
-            <p>This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. This is dummy content. </p>
-            
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active box">
+                        <img src={main_image} class="d-block w-100" alt="This is the main image" />
+                        <div class="text">
+                            {/* <h1>Flying Kites</h1> */}
+                            <img src={logo1} />
+                        </div>
+                    </div>
+                    {/* <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="..." />
+                    </div>
+                    <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="..." />
+                    </div> */}
+                </div>
+            </div>
         </div>
     )
 }

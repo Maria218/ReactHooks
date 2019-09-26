@@ -3,7 +3,10 @@ import "./Members.css";
 
 export default function Members() {
     return (
-        <div>
+        <div id="members">
+            <br />
+            <br />
+            <br />
             <h1>Meet Our Members</h1>
             <br />
             <br />

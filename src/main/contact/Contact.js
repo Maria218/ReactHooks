@@ -3,7 +3,10 @@ import "./Contact.css";
 
 export default function Contact() {
     return (
-        <div>
+        <div id="contact">
+            <br />
+            <br />
+            <br />
             <h1>Get In Touch With Us</h1>
             <br />
             <br />

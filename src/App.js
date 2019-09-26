@@ -1,4 +1,5 @@
 import React from "react";
+import { ScrollTo, ScrollArea } from "react-scroll-to";
 import './App.css';
 import Navbar from "./main/navbar/Navbar";
 import Home from "./main/home/Home";
@@ -10,24 +11,10 @@ export default function App() {
   return (
     <div class="App">
       <Navbar />
-      <Home
-        title="Home"
-        dark={true}
-        name="section1"
-      />
-      <About
-        title="About"
-        name="section2"
-      />
-      <Members
-        title="Members"
-        id="section3"
-        name="section3"
-      />
-      <Contact
-        title="Contact"
-        name="section4"
-      />
+      <Home />
+      <About />
+      <Members />
+      <Contact />
     </div>
   )
 }
