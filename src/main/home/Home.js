@@ -15,7 +15,6 @@ export default function Home() {
                         <img src={main_image} class="d-block w-100" alt="This is the main image" />
                         <div class="text">
                             {/* <h1>Flying Kites</h1> */}
-                            <img src={logo1} />
                         </div>
                     </div>
                     {/* <div class="carousel-item">
