@@ -5,7 +5,7 @@ import logo1 from "./../../public/logo1_edited.gif"
 
 export default function Home() {
     return (
-        <div id="home" class="fade-in">
+        <div id="home">
             <br />
             <br />
             <br />
