@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import main_image from "./../../public/main_image.jpg";
+import logo1 from "./../../public/logo1_edited.gif"
 
 export default function Home() {
     return (
@@ -12,8 +13,9 @@ export default function Home() {
                 <div class="carousel-inner">
                     <div class="carousel-item active box">
                         <img src={main_image} class="d-block w-100" alt="Girls' Voices" />
-                        <div class="text">
+                        <div class="text fade-in">
                             {/* <h1>Flying Kites</h1> */}
+                            <img src={logo1} />
                         </div>
                     </div>
                     {/* <div class="carousel-item">

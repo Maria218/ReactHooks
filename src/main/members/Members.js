@@ -28,7 +28,7 @@ export default function Members() {
                         </div>
                     </div>
                     <div className="card">
-                        <IconContext.Provider className="card-img-top" value={{ color: "blue", className: "global-class-name", size: "10em" }}>
+                        <IconContext.Provider className="card-img-top" value={{ color: "green", className: "global-class-name", size: "10em" }}>
                             <div>
                                 <FaUserAlt />
                             </div>
@@ -39,7 +39,7 @@ export default function Members() {
                         </div>
                     </div>
                     <div className="card">
-                        <IconContext.Provider className="card-img-top" value={{ color: "blue", className: "global-class-name", size: "10em" }}>
+                        <IconContext.Provider className="card-img-top" value={{ color: "red", className: "global-class-name", size: "10em" }}>
                             <div>
                                 <FaUserAlt />
                             </div>
@@ -50,7 +50,7 @@ export default function Members() {
                         </div>
                     </div>
                     <div className="card">
-                        <IconContext.Provider className="card-img-top" value={{ color: "blue", className: "global-class-name", size: "10em" }}>
+                        <IconContext.Provider className="card-img-top" value={{ color: "yellow", className: "global-class-name", size: "10em" }}>
                             <div>
                                 <FaUserAlt />
                             </div>
