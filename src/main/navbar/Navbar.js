@@ -21,9 +21,9 @@ export default function Navbar() {
                         <li className="nav-item px-3">
                             <NavLink to="/about" activeClassName="selected" className="nav-link">about</NavLink>
                         </li>
-                        <li className="nav-item px-3">
+                        {/* <li className="nav-item px-3">
                             <NavLink to="/members" activeClassName="selected" className="nav-link">members</NavLink>
-                        </li>
+                        </li> */}
                         <li className="nav-item px-3">
                             <NavLink to="/contact" activeClassName="selected" className="nav-link">get in touch</NavLink>
                         </li>

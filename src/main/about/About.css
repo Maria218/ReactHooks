@@ -23,3 +23,13 @@
         justify-content: center;
     }
 }
+
+.table {
+    background-color: white;
+    border: 3px solid black;
+    text-align: center justify;
+}
+
+.head {
+    text-align: center !important;
+}
