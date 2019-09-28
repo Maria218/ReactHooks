@@ -17,6 +17,7 @@
 
 .header-text {
     color: white;
+    text-align: center;
 }
 
 .body {
@@ -31,4 +32,9 @@
     width: 100%;
     padding: 20px;
     /* text-align: center; */
-  }
+}
+
+.social {
+    text-align: center;
+    border: 3px solid black;
+}
