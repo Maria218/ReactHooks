@@ -1,30 +1,27 @@
 import React from "react";
 import "./Home.css";
-import main_image from "./../../public/main_image.jpg";
-import logo1 from "./../../public/logo1_edited.gif"
+import desktopImage from "./../../public/main_image.jpg";
+import mobileImage from "./../../public/main_image2.jpg";
 
 export default function Home() {
+    const homeImage = window.innerWidth >= 650 ? desktopImage : mobileImage
     return (
-        <div id="home body">
-            <br />
-            <br />
-            <br />
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active box">
-                        <img src={main_image} class="d-block w-100" alt="Girls' Voices" />
-                        <div class="text fade-in">
-                            {/* <h1>Flying Kites</h1> */}
-                            <img src={logo1} />
-                        </div>
-                    </div>
-                    {/* <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..." />
-                    </div> */}
+        <div className="home" style={{backgroundImage: `url(${homeImage})`}}>
+            <div className="body">
+                <br />
+                <br />
+                <br />
+                <div className="text">
+                    <h1 dir="rtl">Girls' voices is an organization that seeks to ensure every girl's voice is heard</h1>
+                    <ul className="right-text" dir="rtl">
+                        <li className="fade1">Counselling and educating parents on protecting their girls</li>
+                        <li className="fade2">Raising the fist of power for women empowerment</li>
+                        <li className="fade3">Helping sexually abused girls find healing</li>
+                    </ul>
                 </div>
+                <br />
+                <br />
+                <br />
             </div>
         </div>
     )

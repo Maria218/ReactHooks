@@ -1,3 +1,31 @@
+.home {
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 40px;
+}
+
+@media (min-width: 650px) {
+    .home {
+        background-position: center center;
+    }
+
+    .body {
+        align-items: flex-end;
+        justify-content: center;
+    }
+}
+
+
 @keyframes fadeIn{
     0% {
         opacity:0;
@@ -51,19 +79,59 @@
     -ms-animation: fadeIn ease 5s;
 }
 
-.box{
+/* /* .box {
     position: relative;
     display: inline-block; /* Make the width of box same as image */
-}
+/* } */
 
 .box .text{
+    color: white;
     position: absolute;
     z-index: 999;
     margin: 0 auto;
-    left: 50%;
+    left: 30%;
     right: 0;
-    top: 20%; /* Adjust this value to move the positioned div up and down */
-    text-align: center;
+    top: 17%; /* Adjust this value to move the positioned div up and down */
+    text-align: justify;
     width: 60%; /* Set the width of the positioned div */
 }
 
+.text {
+    color: white;
+}
+
+.text2{
+    color: white;
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0%;
+    right: 30;
+    top: 60%; /* Adjust this value to move the positioned div up and down */
+    text-align: justify;
+    width: 60%; /* Set the width of the positioned div */
+}
+
+.fade1 {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+}
+
+.fade2 {
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+}
+
+.fade3 {
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
+}

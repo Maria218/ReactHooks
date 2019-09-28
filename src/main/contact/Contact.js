@@ -1,5 +1,6 @@
 import React from "react";
 import contact from "./../../public/talking.jpg";
+import contact2 from "./../../public/contact2.jpg"
 import { FaFacebook } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
@@ -7,19 +8,25 @@ import { IconContext } from "react-icons";
 import "./Contact.css";
 
 export default function Contact() {
+    const contactImg = window.innerWidth >= 650 ? contact : contact2;
     return (
-        <div className="contact box">
+        <div className="contact" style={{ backgroundImage: `url(${contactImg})`}}>
             <div className="body">
+                <div className="container table">
+                    <div class="jumbotron jumbotron-fluid social">
+                        <div class="container">
+                            <h1>Get In Touch With Us</h1>
+                            <br />
+                            <br />
+                            <h1 class="display-4">Fluid jumbotron</h1>
+                            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                        </div>
+                    </div>
+                </div>
+                {/* <h1 className="header-text">Get In Touch With Us</h1>
                 <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <h1 className="header-text">Get In Touch With Us</h1>
-                <image src={contact} alt="" />
-                <br />
-                <br />
-                <div className="jumbotron social">
+                <br /> */}
+                {/* <div className="jumbotron social">
                     <h1 className="display-4">Contact Girls' Voices!</h1>
                     <p className="lead">Get in touch with us on these platforms:</p>
                     <hr className="my-4" />
@@ -52,14 +59,7 @@ export default function Contact() {
                             </IconContext.Provider>
                         </div>
                     </div>
-                </div>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+                </div> */}
             </div>
         </div>
     )
