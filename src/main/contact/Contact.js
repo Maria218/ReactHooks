@@ -11,15 +11,44 @@ export default function Contact() {
     const contactImg = window.innerWidth >= 650 ? contact : contact2;
     return (
         <div className="contact" style={{ backgroundImage: `url(${contactImg})`}}>
-            <div className="body">
+            <div className="body" style={{backgroundColor: `rgb(0, 0, 0, 0.6)`}}>
+                <br />
+                <br />
+                <br />
                 <div className="container table">
                     <div class="jumbotron jumbotron-fluid social">
                         <div class="container">
-                            <h1>Get In Touch With Us</h1>
+                            <h1>Get In Touch With Us!</h1>
                             <br />
-                            <br />
-                            <h1 class="display-4">Fluid jumbotron</h1>
-                            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                            <div className="row">
+                                <div className="col-4">
+                                    <IconContext.Provider className="" value={{ color: "#4267b2", className: "global-class-name", size: "3em" }}>
+                                        <div>
+                                            <p>Find us on facebook:</p>
+                                            <FaFacebook />
+                                            <p>GirlsVoicesPage</p>
+                                        </div>
+                                    </IconContext.Provider>
+                                </div>
+                                <div className="col-4">
+                                    <IconContext.Provider className="" value={{ color: "brown", className: "global-class-name", size: "3em" }}>
+                                        <div>
+                                            <p>Email Us:</p>
+                                            <FaEnvelope />
+                                            <p>girlsvoices@gmail.com</p>
+                                        </div>
+                                    </IconContext.Provider>
+                                </div>
+                                <div className="col-4">
+                                    <IconContext.Provider className="" value={{ color: "green", className: "global-class-name", size: "3em" }}>
+                                        <div>
+                                            <p>Call Us:</p>
+                                            <FaPhone />
+                                            <p>+260 978 006 736</p>
+                                        </div>
+                                    </IconContext.Provider>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

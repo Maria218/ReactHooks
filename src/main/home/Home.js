@@ -7,17 +7,15 @@ export default function Home() {
     const homeImage = window.innerWidth >= 650 ? desktopImage : mobileImage
     return (
         <div className="home" style={{backgroundImage: `url(${homeImage})`}}>
-            <div className="body">
+            <div className="body"  style={{backgroundColor: `rgb(0, 0, 0, 0.6)`}}>
                 <br />
                 <br />
                 <br />
                 <div className="text">
                     <h1 dir="rtl">Girls' voices is an organization that seeks to ensure every girl's voice is heard</h1>
-                    <ul className="right-text" dir="rtl">
-                        <li className="fade1">Counselling and educating parents on protecting their girls</li>
-                        <li className="fade2">Raising the fist of power for women empowerment</li>
-                        <li className="fade3">Helping sexually abused girls find healing</li>
-                    </ul>
+                    <h1 dir="rtl">Counselling and educating parents on protecting their girls</h1>
+                    <h1 dir="rtl">Raising the fist of power for women empowerment</h1>
+                    <h1 dir="rtl">Helping sexually abused girls find healing</h1>
                 </div>
                 <br />
                 <br />

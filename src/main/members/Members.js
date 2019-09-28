@@ -1,5 +1,4 @@
 import React from "react";
-import { FaUserCircle } from 'react-icons/fa';
 import { FaUserAlt } from 'react-icons/fa';
 import "./Members.css";
 import { IconContext } from "react-icons";
@@ -23,8 +22,8 @@ export default function Members() {
                         </IconContext.Provider>
                         {/* <img className="card-img-top" alt="..." /> */}
                         <div className="card-body">
-                            <h5 className="card-title">Card title that wraps to a new line</h5>
-                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 className="card-title">Maria</h5>
+                            <p className="card-text">Secretary</p>
                         </div>
                     </div>
                     <div className="card">
@@ -34,8 +33,8 @@ export default function Members() {
                             </div>
                         </IconContext.Provider>
                         <div className="card-body">
-                            <h5 className="card-title">Card title that wraps to a new line</h5>
-                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 className="card-title">Person 2</h5>
+                            <p className="card-text">CEO</p>
                         </div>
                     </div>
                     <div className="card">
@@ -45,8 +44,8 @@ export default function Members() {
                             </div>
                         </IconContext.Provider>
                         <div className="card-body">
-                            <h5 className="card-title">Card title that wraps to a new line</h5>
-                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 className="card-title">Person 3</h5>
+                            <p className="card-text">Tech Advisor</p>
                         </div>
                     </div>
                     <div className="card">
@@ -56,8 +55,8 @@ export default function Members() {
                             </div>
                         </IconContext.Provider>
                         <div className="card-body">
-                            <h5 className="card-title">Card title that wraps to a new line</h5>
-                            <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <h5 className="card-title">Person 4</h5>
+                            <p className="card-text">The Help</p>
                         </div>
                     </div>
                 </div>
